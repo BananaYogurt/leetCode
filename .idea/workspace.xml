@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6f6d19-cb5f-4723-bd57-8117ba2f5ac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/mystring.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/subjcet_99.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/subject_382.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/subject_42.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/subject_42_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/subject_621.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/subject_621_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/subject_874.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/subject_962.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/subject_962_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/subjcet_99.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/subjcet_99.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +34,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1V3LzncL8CCGiKfvc3wlYZS3RQa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,6 +50,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -180,11 +177,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="99 二叉树恢复" />
+    <option name="LAST_COMMIT_MESSAGE" value="99 二叉树恢复" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2109" y="183" key="#go_build_leetCode/main" timestamp="1576485168881">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2109" y="183" key="#go_build_leetCode/main/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485168881" />
+    <state x="1994" y="137" key="CommitChangelistDialog2" timestamp="1576486141271">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1994" y="137" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576486141271" />
     <state width="1878" height="223" key="GridCell.Tab.0.bottom" timestamp="1576485223930">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
