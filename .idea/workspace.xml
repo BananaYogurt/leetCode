@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af6f6d19-cb5f-4723-bd57-8117ba2f5ac7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/mystring.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/subjcet_99.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/subject_382.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/subject_42.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/subject_42_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/subject_621.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/subject_621_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/subject_874.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/subject_962.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/subject_962_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>right</find>
+      <find>&quot;</find>
+      <find>toString</find>
+      <find>tmpStringBufSize</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+      <replace>count</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/opt/go/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1V3LzncL8CCGiKfvc3wlYZS3RQa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build leetCode/main">
+    <configuration name="go build leetCode/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/subjcet_99.go" />
+      <package value="leetCode/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build subject_874.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/subject_874.go" />
+      <package value="leetCode" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build subject_962.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/subject_962.go" />
+      <package value="leetCode" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLeLeastInterval in leetCode/main" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <working_directory value="$PROJECT_DIR$/main" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetCode/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLeLeastInterval$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMaxWidthRamp in leetCode/main" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <working_directory value="$PROJECT_DIR$/main" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetCode/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMaxWidthRamp$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build leetCode/main" />
+        <item itemvalue="Go Build.go build subject_874.go" />
+        <item itemvalue="Go Build.go build subject_962.go" />
+        <item itemvalue="Go Test.TestMaxWidthRamp in leetCode/main" />
+        <item itemvalue="Go Test.TestLeLeastInterval in leetCode/main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestLeLeastInterval_in_leetCode_main - 2019.11.19 at 17h 55m 45s.xml">
+      <configuration name="TestLeLeastInterval in leetCode/main" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxWidthRamp_in_leetCode_main - 2019.12.12 at 15h 43m 26s.xml">
+      <configuration name="TestMaxWidthRamp in leetCode/main" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxWidthRamp_in_leetCode_main - 2019.12.12 at 15h 45m 11s.xml">
+      <configuration name="TestMaxWidthRamp in leetCode/main" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxWidthRamp_in_leetCode_main - 2019.12.12 at 15h 55m 16s.xml">
+      <configuration name="TestMaxWidthRamp in leetCode/main" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxWidthRamp_in_leetCode_main - 2019.12.12 at 15h 55m 35s.xml">
+      <configuration name="TestMaxWidthRamp in leetCode/main" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxWidthRamp_in_leetCode_main - 2019.12.12 at 15h 55m 37s.xml">
+      <configuration name="TestMaxWidthRamp in leetCode/main" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxWidthRamp_in_leetCode_main - 2019.12.12 at 16h 07m 19s.xml">
+      <configuration name="TestMaxWidthRamp in leetCode/main" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxWidthRamp_in_leetCode_main - 2019.12.12 at 16h 10m 38s.xml">
+      <configuration name="TestMaxWidthRamp in leetCode/main" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxWidthRamp_in_leetCode_main - 2019.12.12 at 16h 20m 51s.xml">
+      <configuration name="TestMaxWidthRamp in leetCode/main" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxWidthRamp_in_leetCode_main - 2019.12.12 at 16h 24m 04s.xml">
+      <configuration name="TestMaxWidthRamp in leetCode/main" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2109" y="183" key="#go_build_leetCode/main" timestamp="1576485168881">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2109" y="183" key="#go_build_leetCode/main/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485168881" />
+    <state width="1878" height="223" key="GridCell.Tab.0.bottom" timestamp="1576485223930">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="223" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485223930" />
+    <state width="1878" height="223" key="GridCell.Tab.0.center" timestamp="1576485223929">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="223" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485223929" />
+    <state width="1878" height="223" key="GridCell.Tab.0.left" timestamp="1576485223928">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="223" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485223928" />
+    <state width="1878" height="223" key="GridCell.Tab.0.right" timestamp="1576485223930">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="223" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485223930" />
+    <state width="1878" height="223" key="GridCell.Tab.1.bottom" timestamp="1576485223843">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="223" key="GridCell.Tab.1.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485223843" />
+    <state width="1878" height="223" key="GridCell.Tab.1.center" timestamp="1576485223842">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="223" key="GridCell.Tab.1.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485223842" />
+    <state width="1878" height="223" key="GridCell.Tab.1.left" timestamp="1576485223841">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="223" key="GridCell.Tab.1.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485223841" />
+    <state width="1878" height="223" key="GridCell.Tab.1.right" timestamp="1576485223843">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="223" key="GridCell.Tab.1.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485223843" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
