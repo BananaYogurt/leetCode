@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /**
 61. 旋转链表
 输入: 1->2->3->4->5->NULL, k = 2
@@ -22,13 +20,17 @@ func rotateRight(head *ListNode, k int) *ListNode {
 
 	length := 0
 	p := head
+	var tail *ListNode
 	for p != nil {
 		length++
+		tail = p
 		p = p.Next
 	}
+	if length == 1 {
+		return head
+	}
 	offset := k % length
-	fmt.Println("v1, v2", length, offset)
-	if offset == 0 || length == 1 {
+	if offset == 0 {
 		return head
 	}
 	index := 0
@@ -40,15 +42,11 @@ func rotateRight(head *ListNode, k int) *ListNode {
 			newHead = p1.Next
 			p1.Next = nil
 			p1 = newHead
-			index++
-		}
-		if index == length {
-			p1.Next = head
 			break
 		}
 		p1 = p1.Next
 	}
-
+	tail.Next = head
 	return newHead
 
 }

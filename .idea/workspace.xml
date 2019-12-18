@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6f6d19-cb5f-4723-bd57-8117ba2f5ac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/subject_61.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/subjcet_99.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/subjcet_99.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/subject_61.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/subject_61.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,20 +165,57 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="99 二叉树恢复" />
     <MESSAGE value="99 二叉树恢复  草稿2" />
-    <option name="LAST_COMMIT_MESSAGE" value="99 二叉树恢复  草稿2" />
+    <MESSAGE value="61题 链表节点右移 第一次通过； 执行用例4ms,内存消耗2.5MB" />
+    <option name="LAST_COMMIT_MESSAGE" value="61题 链表节点右移 第一次通过； 执行用例4ms,内存消耗2.5MB" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2109" y="183" key="#go_build_leetCode/main" timestamp="1576485168881">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2109" y="183" key="#go_build_leetCode/main/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576485168881" />
-    <state x="1994" y="137" key="CommitChangelistDialog2" timestamp="1576487245810">
+    <state x="1994" y="137" key="CommitChangelistDialog2" timestamp="1576640886105">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1994" y="137" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576487245810" />
+    <state x="1994" y="137" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576640886105" />
     <state width="1878" height="223" key="GridCell.Tab.0.bottom" timestamp="1576493416181">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
@@ -219,6 +256,14 @@
     </state>
     <state width="1878" height="223" key="GridCell.Tab.1.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576487908903" />
     <state width="1878" height="223" key="GridCell.Tab.1.right/1440.23.1920.1057/41.23.1399.877@1440.23.1920.1057" timestamp="1576493416183" />
+    <state x="2243" y="258" key="RollbackChangesDialog" timestamp="1576641432858">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2243" y="258" key="RollbackChangesDialog/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576641432858" />
+    <state x="2000" y="268" key="Vcs.Push.Dialog.v2" timestamp="1576640887885">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2000" y="268" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576640887885" />
     <state x="2066" y="183" width="667" height="714" key="find.popup" timestamp="1576637715606">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
