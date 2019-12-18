@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //99. 恢复二叉搜索树
 
 type TreeNode struct {
@@ -43,12 +45,14 @@ func recoverTree(root *TreeNode) {
 	stack := TmpStack{-1, [8]*TmpNode{}}
 	if root != nil {
 		rootV := root.Val
+		deep := -1
 		stack.push(&TmpNode{root, 0})
 		for stack.top > -1 {
 			curNode := stack.peek()
 			left := curNode.getLeft()
 			right := curNode.getRight()
 			ok := true
+			deep++
 			if nil != right {
 				if curNode.nodeType == 0 {
 					stack.push(&TmpNode{right, 1})
@@ -71,11 +75,34 @@ func recoverTree(root *TreeNode) {
 			}
 			if curNode.nodeType == -1 { //左子树的节点值全部小于根结点的值
 				if curNode.node.Val > rootV {
-					ok = false
+					if deep == 1 {
+						n1 = root.Left
+						if root.Right == nil {
+							n2 = root
+						} else {
+							n2 = root.Right
+						}
+					} else {
+						n1 = root
+						n2 = curNode.node
+					}
+					break
 				}
 			} else if curNode.nodeType == 1 { //右子树的节点值全部大于根结点的值
 				if curNode.node.Val < rootV {
-					ok = false
+					if deep == 1 {
+						n1 = root.Right
+						if root.Left == nil {
+							n2 = root
+						} else {
+							n2 = root.Left
+						}
+					} else {
+						n1 = root
+						n2 = curNode.node
+					}
+
+					break
 				}
 			}
 
@@ -94,10 +121,27 @@ func recoverTree(root *TreeNode) {
 	}
 }
 
-/*func main() {
-	stack := TmpStack{-1, [8]*TreeNode{}}
-	node := TreeNode{1, nil, nil}
-	stack.push(&node)
-	n1 := stack.peek()
-	fmt.Println("运行结果", n1.Val)
-}*/
+func main() {
+	node6 := TreeNode{2, nil, nil}
+	node3 := TreeNode{4, &node6, nil}
+	node2 := TreeNode{1, nil, nil}
+	node1 := TreeNode{3, &node2, &node3}
+	fmt.Println("恢复前")
+	printNode(&node1)
+	recoverTree(&node1)
+	fmt.Println("恢复后")
+	printNode(&node1)
+}
+
+func printNode(node *TreeNode) {
+	/*prefix := "["
+	suffix := "]"*/
+	if node != nil {
+		fmt.Print(node.Val)
+		fmt.Print("\t")
+		printNode(node.Left)
+		printNode(node.Right)
+	} else {
+		fmt.Print("null\t")
+	}
+}
