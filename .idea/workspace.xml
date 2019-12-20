@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af6f6d19-cb5f-4723-bd57-8117ba2f5ac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/nagetive_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/subject_150.go" afterDir="false" />
+    <list default="true" id="af6f6d19-cb5f-4723-bd57-8117ba2f5ac7" name="Default Changelist" comment="150 逆波兰表达式 第一次通过执行 4ms， 内存 4mb">
+      <change afterPath="$PROJECT_DIR$/main/quickSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/quickSort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/subject_282.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/subjcet_99.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/subjcet_99.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/subject_150.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/subject_150.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/subject_874.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/subject_874.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Go Build.go build leetCode/main (1)">
+  <component name="RunManager" selected="Go Test.TestQuickSort in leetCode/main">
     <configuration name="go build leetCode/main (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -96,7 +99,7 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMaxWidthRamp in leetCode/main" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestQuickSort in leetCode/main" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/main" />
       <framework value="gotest" />
@@ -104,16 +107,16 @@
       <package value="leetCode/main" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMaxWidthRamp$" />
+      <pattern value="^TestQuickSort$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestQuickSort in leetCode/main" />
         <item itemvalue="Go Build.go build leetCode/main (1)" />
         <item itemvalue="Go Build.go build subject_962.go" />
         <item itemvalue="Go Build.go build leetCode/main" />
         <item itemvalue="Go Build.go build subject_874.go" />
-        <item itemvalue="Go Test.TestMaxWidthRamp in leetCode/main" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +208,8 @@
     <MESSAGE value="99 二叉树恢复  草稿2" />
     <MESSAGE value="61题 链表节点右移 第一次通过； 执行用例4ms,内存消耗2.5MB" />
     <MESSAGE value="61题 链表节点右移 第一次通过； 执行用例0ms,内存消耗2.5MB" />
-    <option name="LAST_COMMIT_MESSAGE" value="61题 链表节点右移 第一次通过； 执行用例0ms,内存消耗2.5MB" />
+    <MESSAGE value="150 逆波兰表达式 第一次通过执行 4ms， 内存 4mb" />
+    <option name="LAST_COMMIT_MESSAGE" value="150 逆波兰表达式 第一次通过执行 4ms， 内存 4mb" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2109" y="183" key="#go_build_leetCode/main" timestamp="1576485168881">
@@ -216,54 +220,58 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2109" y="183" key="#go_build_leetCode/main_(1)/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576660266744" />
-    <state x="1994" y="137" key="CommitChangelistDialog2" timestamp="1576641713108">
+    <state x="1994" y="137" key="CommitChangelistDialog2" timestamp="1576663366469">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1994" y="137" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576641713108" />
-    <state width="1878" height="223" key="GridCell.Tab.0.bottom" timestamp="1576661784550">
+    <state x="1994" y="137" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576663366469" />
+    <state x="2267" y="440" key="Github.ShareDialog" timestamp="1576663414558">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="223" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576661784550" />
+    <state x="2267" y="440" key="Github.ShareDialog/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576663414558" />
+    <state width="1878" height="223" key="GridCell.Tab.0.bottom" timestamp="1576831078890">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="223" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576831078890" />
     <state width="1878" height="223" key="GridCell.Tab.0.bottom/1440.23.1920.1057/41.23.1399.877@1440.23.1920.1057" timestamp="1576493416181" />
-    <state width="1878" height="223" key="GridCell.Tab.0.center" timestamp="1576661784549">
+    <state width="1878" height="223" key="GridCell.Tab.0.center" timestamp="1576831078888">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="223" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576661784549" />
+    <state width="1878" height="223" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576831078888" />
     <state width="1878" height="223" key="GridCell.Tab.0.center/1440.23.1920.1057/41.23.1399.877@1440.23.1920.1057" timestamp="1576493416179" />
-    <state width="1878" height="223" key="GridCell.Tab.0.left" timestamp="1576661784548">
+    <state width="1878" height="223" key="GridCell.Tab.0.left" timestamp="1576831078887">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="223" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576661784548" />
+    <state width="1878" height="223" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576831078887" />
     <state width="1878" height="223" key="GridCell.Tab.0.left/1440.23.1920.1057/41.23.1399.877@1440.23.1920.1057" timestamp="1576493416178" />
-    <state width="1878" height="223" key="GridCell.Tab.0.right" timestamp="1576661784549">
+    <state width="1878" height="223" key="GridCell.Tab.0.right" timestamp="1576831078889">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="223" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576661784549" />
+    <state width="1878" height="223" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576831078889" />
     <state width="1878" height="223" key="GridCell.Tab.0.right/1440.23.1920.1057/41.23.1399.877@1440.23.1920.1057" timestamp="1576493416180" />
-    <state width="1878" height="223" key="GridCell.Tab.1.bottom" timestamp="1576661784492">
+    <state width="1878" height="223" key="GridCell.Tab.1.bottom" timestamp="1576831078892">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="223" key="GridCell.Tab.1.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576661784492" />
+    <state width="1878" height="223" key="GridCell.Tab.1.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576831078892" />
     <state width="1878" height="223" key="GridCell.Tab.1.bottom/1440.23.1920.1057/41.23.1399.877@1440.23.1920.1057" timestamp="1576493416184" />
-    <state width="1878" height="223" key="GridCell.Tab.1.center" timestamp="1576661784490">
+    <state width="1878" height="223" key="GridCell.Tab.1.center" timestamp="1576831078891">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="223" key="GridCell.Tab.1.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576661784490" />
+    <state width="1878" height="223" key="GridCell.Tab.1.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576831078891" />
     <state width="1878" height="223" key="GridCell.Tab.1.center/1440.23.1920.1057/41.23.1399.877@1440.23.1920.1057" timestamp="1576493416182" />
-    <state width="1878" height="223" key="GridCell.Tab.1.left" timestamp="1576661784490">
+    <state width="1878" height="223" key="GridCell.Tab.1.left" timestamp="1576831078890">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="223" key="GridCell.Tab.1.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576661784490" />
+    <state width="1878" height="223" key="GridCell.Tab.1.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576831078890" />
     <state width="1878" height="223" key="GridCell.Tab.1.left/1440.23.1920.1057/41.23.1399.877@1440.23.1920.1057" timestamp="1576493416182" />
-    <state width="1878" height="223" key="GridCell.Tab.1.right" timestamp="1576661784491">
+    <state width="1878" height="223" key="GridCell.Tab.1.right" timestamp="1576831078892">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="223" key="GridCell.Tab.1.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576661784491" />
+    <state width="1878" height="223" key="GridCell.Tab.1.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576831078892" />
     <state width="1878" height="223" key="GridCell.Tab.1.right/1440.23.1920.1057/41.23.1399.877@1440.23.1920.1057" timestamp="1576493416183" />
-    <state x="2243" y="258" key="RollbackChangesDialog" timestamp="1576661189785">
+    <state x="2243" y="258" key="RollbackChangesDialog" timestamp="1576663092295">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2243" y="258" key="RollbackChangesDialog/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576661189785" />
+    <state x="2243" y="258" key="RollbackChangesDialog/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1576663092295" />
     <state x="2000" y="268" key="Vcs.Push.Dialog.v2" timestamp="1576640887885">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>

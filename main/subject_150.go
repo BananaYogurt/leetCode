@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 /**
 根据逆波兰表示法，求表达式的值。
 
@@ -120,9 +116,9 @@ func evalRPN(tokens []string) int {
 	return stack.peek()
 }
 
-func main() {
+/*func main() {
 	//source := []string {"2","1","+","3","*"}
 	//source := []string {"4","13","5","/","+"}
 	source := []string{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}
 	fmt.Println("运行结果", evalRPN(source))
-}
+}*/

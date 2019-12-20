@@ -121,7 +121,7 @@ func recoverTree(root *TreeNode) {
 	}
 }
 
-func main() {
+/*func main() {
 	node6 := TreeNode{2, nil, nil}
 	node3 := TreeNode{4, &node6, nil}
 	node2 := TreeNode{1, nil, nil}
@@ -132,7 +132,7 @@ func main() {
 	fmt.Println("恢复后")
 	printNode(&node1)
 }
-
+*/
 func printNode(node *TreeNode) {
 	/*prefix := "["
 	suffix := "]"*/
